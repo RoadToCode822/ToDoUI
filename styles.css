@@ -2,3 +2,13 @@ h1 {
 	background-color: green;
 	border: green 1px solid;
 }
+
+
+.navbar-brand {
+    padding: 0 0 0 0;
+    
+}
+
+.navbar {
+    max-height: 60px;
+}
