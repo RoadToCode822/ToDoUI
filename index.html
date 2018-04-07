@@ -21,14 +21,8 @@
     <!-- Use local CSS Directory --> 
     <link rel="stylesheet" href="styles.css" type ="text/css">
 
-    <!-- Custom styles for this template -->
-    <style type="text/css">
-        body {
-         
-        }
 
-      
-    </style>
+
 </head>
 
     
@@ -40,32 +34,83 @@
         <span class="navbar-toggler-icon"></span>
       </button>
         <a class = 'navbar-brand' href='http://facebook.com'><img src='http://www.personalbrandingblog.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640-300x300.png' width="60" class="inline-block align-top"></a>
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav mr-auto">
+        <div class="collapse navbar-collapse " id="navbarsExampleDefault">
+        
+            <div class = 'pageLink col-md-9'>
+            <ul class="navbar-nav ">
                 
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <li class="nav-item col-md-3 text-left">
+                    <a class="nav-link text-primary" href="#"><i class="fas fa-th" style="font-size: 16px"></i></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                 <li class="nav-item col-md-3 text-right">
+                    <a class="nav-link text-primary" href="#"><i class="fas fa-bars" style="font-size: 16px"></i></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="#">Disabled</a>
+                <li class="nav-item col-md-3 text-center">
+                    <a class="nav-link text-primary" href="#"><i class="far fa-clock" style="font-size: 16px"></i></a>
+                </li>
+                <li class="nav-item col-md-3 text-left">
+                    <a class="nav-link text-primary" href="#"><i class="far fa-star" style="font-size: 16px" ></i></a>
                 </li>
                
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <i class="fas fa-search"></i>
-                <input class="form-control mr-search sm-2 bg-light" type="text" placeholder="Search Tasks" aria-label="Search">
-                <button class="btn bg-warning my-2 my-sm-0" type="submit">Search</button>
-            </form>
         </div>
+         <!-- Create a search bar that appears when you hover on the search icon, on the right side-->
+            <div class='input-group col-md-3'>
+            <input type='text' id='Search' class='form-control Searchbar border-white' placeholder = 'Search Task'>
+            <button type="button" class="btn bg-white" aria-label="Right Align">
+  <span class="fas fa-search " aria-hidden="true"></span>
+</button>
+        </div>
+            </div>
     </nav>
 
     <main role="main" class="container">
-
-       
-
+<div class='containerheading'>
+        <h2 id='name'>ALL</h2>
+        </div>
+<div class='flex-container'>
+        <div class = 'colHeadOne'=>
+     <div class='flexToday'>
+            <h3 class='TODAY'>TODAY</h3>
+         <button type='button' class='btn btn-outline-info'><i class="fas fa-plus"></i></button>
+            <button type='button' class="btn btn-info">Pull Github Repo for ToDoUI</button>
+         <button type='button' class="btn btn-info">Start work on Facebook UI</button>
+         <button type='button' class="btn btn-info">Plan Coding Schedhule </button>
+            </div>
+            
+        </div>
+        
+                <div class = 'colHeadTwo'=>
+  
+            <div class='flexTomorrow'>        
+            <h3 class='TOMORROW'>TOMORROW</h3>
+                <button type='button' class='btn btn-outline-info'><i class="fas fa-plus"></i></button>
+                   <button type='button' class="btn btn-info">Finish Drywalling</button>
+         <button type='button' class="btn btn-info">Start Plumbing</button>
+         <button type='button' class="btn btn-info">Start Electrical rough-in</button>
+                    </div>
+        </div>
+        
+                <div class = 'colHeadThree'=>
+       <div class='flexUpcoming'>
+            <h3 class='UPCOMING'>UPCOMING</h3>
+           <button type='button' class='btn btn-outline-info'><i class="fas fa-plus"></i></button>
+              <button type='button' class="btn btn-info">Read Quran</button>
+         <button type='button' class="btn btn-info">Complete Assignment</button>
+         <button type='button' class="btn btn-info">Research Micron Stock </button>
+                    </div>
+        </div>
+        
+                <div class = 'colHeadFour'=>
+<div class='flexSomeday'>
+            <h3 class='SOMEDAY'>SOMEDAY</h3>
+    <button type='button' class='btn btn-outline-info'><i class="fas fa-plus"></i></button>
+         <button type='button' class="btn btn-info">Play Basketball</button>
+         <button type='button' class="btn btn-info">Meet Colleagues</button>
+         <button type='button' class="btn btn-info">Gym Workout </button>
+        </div>
+        </div>
+        </div>
     </main>
     <!-- /.container -->
 
@@ -74,8 +119,13 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    
+    <!--Use local Javascript Directory-->
+    <script type="text/javascript" src="jsdirectory.js"></script>
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
 
 
 </body>
