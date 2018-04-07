@@ -72,7 +72,7 @@ h3 {
     flex-direction: row;
     height: 100%;
     flex-wrap: nowrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
 
     
 }
@@ -125,4 +125,8 @@ h3 {
 .btn-info {
     height: 62px;
     margin-top: 20px;
+    background-color: #f9f9f9;
+    color: black;
+    border-color: #f9f9f9;
 }
+
